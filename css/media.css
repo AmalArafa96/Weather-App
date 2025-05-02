@@ -1,0 +1,44 @@
+@media screen and (max-width: 576px){
+    .footer{
+        height:300px;
+    } 
+    button.sub{
+        position: absolute;
+        top: 13%;
+        right: 4%;
+        width: 25%;   
+    }
+    
+    .foot .search .main {
+        width: 75%;
+    }
+}
+@media screen and (min-width: 576px) and (max-width:768px) {
+    button.sub{
+        position: absolute;
+        top: 13%;
+        right: 5%;
+        width: 30%;   
+    }
+    .foot .search .main {
+        width: 75%;
+    }
+    .footer{
+        height:300px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:992px){
+    button.sub{
+        position: absolute;
+        top: 13%;
+        right: 4%;
+        width: 25%;   
+    }
+    
+    .foot .search .main {
+        width: 75%;
+    }
+    .footer{
+        height: 280px;
+    }
+}
