@@ -20,7 +20,7 @@ async function startApp(key){
 }
 //to catch data from api
 async function getData(key){
-    let response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=6329e87e570d433f884170219253004&q=${key}&days=7`);
+    let response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=6329e87e570d433f884170219253004&q=${key}&days=7`);
     let data = await response.json();
     return data;
 }
